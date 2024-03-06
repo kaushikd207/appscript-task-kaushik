@@ -8,8 +8,7 @@ import KeyboardArrowDownSharpIcon from "@mui/icons-material/KeyboardArrowDownSha
 const Header = () => {
   return (
     <Grid container spacing={2}>
-      <Grid className="firstNav" item xs={4}>
-      </Grid>
+      <Grid className="firstNav" item xs={4}></Grid>
       <Grid className="firstNav" item xs={4}>
         <h1>LOGO</h1>
       </Grid>
@@ -18,8 +17,10 @@ const Header = () => {
         <FavoriteBorderTwoToneIcon className="icon" />
         <LocalMallTwoToneIcon className="icon" />
         <Person2SharpIcon className="icon" />
-        <h5 className="language">ENG</h5>
-        <KeyboardArrowDownSharpIcon className="icon" />
+        <h5 className="language">
+          <div className="lang">ENG</div>
+        </h5>
+        <KeyboardArrowDownSharpIcon className="iconD" />
       </Grid>
       <Grid className="subNav subHeader" item xs={12}>
         <ul>
